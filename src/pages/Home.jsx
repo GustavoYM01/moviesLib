@@ -3,7 +3,7 @@ import MovieCard from "../components/MovieCard";
 
 import "./MoviesGrid.css";
 
-const moviesURL = "https://api.themoviedb.org/3/movie/";
+const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
 
 const Home = () => {
